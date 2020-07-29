@@ -13,14 +13,9 @@ public class IntervalWorkout extends Exercise{
     this.breakTime=30;
     this.workOut= new ArrayList<>();
 
-    //adding ArrayList Objects directly in the Array because the are the same for all WorkOuts
-
-
-
-    //triggering the output method in the array
   }
 
-
+    //loop1 reps in loop2 exercises
 
     public void newWorkout(int reps){
       this.workOut.add(exercises.get(0));
